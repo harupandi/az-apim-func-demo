@@ -37,7 +37,7 @@ The Function's HTTP trigger is currently configured as ANONYMOUS, so authenticat
 - [ ] Create a CI/CD workflow for the Function App
 - [ ] Automate dependency installation, testing, and deployment using GitHub Actions. Keep environment-specific settings out of source code and consider federated identity for deployment authentication.
 - [ ] Migrate infrastructure management to Terraform
-- [ ]Strengthen API security
-- [ ]Improve observability and reliability
+- [ ] Strengthen API security
+- [ ] Improve observability and reliability
 
 *Overall goal: evolve a working serverless application into a reproducible, secure, and automated Azure platform managed through infrastructure as code and CI/CD.*
