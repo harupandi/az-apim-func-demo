@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'order-client/**'
+      - '.github/workflows/azure-static-web-apps-delightful-grass-055c01110.yml'
+      - '!**.md'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
