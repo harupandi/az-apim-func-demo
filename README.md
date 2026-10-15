@@ -34,11 +34,10 @@ The project separates frontend configuration from backend credentials:
 The Function's HTTP trigger is currently configured as ANONYMOUS, so authentication of callers is a separate security task from the Function's authentication to Cosmos DB.
 
 ## Roadmap
-[ ] Create a CI/CD workflow for the Function App
-[ ] Automate dependency installation, testing, and deployment using GitHub Actions. Keep environment-specific settings out of source code and consider federated identity for deployment authentication.
-[ ] Migrate infrastructure management to Terraform
-[ ]Strengthen API security
-[ ]Improve observability and reliability
-Add automated tests, Application Insights, structured logging, correlation IDs, and safe handling of transient failures and duplicate order submissions.
+- [ ] Create a CI/CD workflow for the Function App
+- [ ] Automate dependency installation, testing, and deployment using GitHub Actions. Keep environment-specific settings out of source code and consider federated identity for deployment authentication.
+- [ ] Migrate infrastructure management to Terraform
+- [ ]Strengthen API security
+- [ ]Improve observability and reliability
 
 *Overall goal: evolve a working serverless application into a reproducible, secure, and automated Azure platform managed through infrastructure as code and CI/CD.*
